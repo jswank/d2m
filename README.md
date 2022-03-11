@@ -1,11 +1,8 @@
-# D2M
+# d2m
 
 Given a directory with a Maven2 component, create an effective manifest.
 
 (godoc link)
-
-# x2j
-Convert a Maven POM file to JSON
 
 ## Install
 ```console
