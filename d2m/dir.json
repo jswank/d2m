@@ -1,0 +1,61 @@
+{
+    "timestamp": "",
+    "version": "",
+    "coordinates": {
+      "group": "com.github.120011676",
+      "artifact": "cipher",
+      "version": "0.0.7"
+    },
+    "files": [
+      {
+        "hashes": {
+          "asc": "-----BEGIN PGP SIGNATURE-----\nVersion: BCPG v1.64\n\niQIcBAABCgAGBQJf5XddAAoJEKjHJY3yWFCv0UYP/1yVVGzNt0uTwAbSrs9wTfNT\ndK374Zvy5CXEJDLrG91ufiUSILFm6GtUYw6w3BEEZSqjadqfbcvYfg9qsHP7A6yL\nPzcWHE3dstPPm+R4L83EMLkIoeaODGxF+0b07YNl47dp+gBOEUnmF+RJDH1I4Pxh\nihlMJFZimfmCsKpPnZoY1NESif49diFfDVn7ODHQYRN9wfOmZNRS+p1+jLNbuwKX\noFCqaY0wxU6trdOke5NoaFtsgHtlKuUbJHU6nu+GTT0iXJWp518eF73uzo8+9DI4\nsvKR0W1wurT4ID5qCl8jky5+ChLPmVE/Gr8dd2YV/j/CPu7KUwTMNT9h9eBdO004\n+hbkmEA0QlfiQFrxf9TuXSA6lCXI5fi3Bkd4d8Wx/z4TlVOA/SwgxwatnVspTACU\nomYNHS6uB4EtuIWkL1luEvkZpTTi+dUpmCx1O4kpOg5c1Ll07m7o2OACNZ8eXO/A\nj/CONrpJMgT4Fd2/L8TaVfaMGNaDzagD3WHM1JWOKTZ/sZO0HmwINCWQhRtAur/Q\n5hZLKgRkBeL5lhvEoqeOrMpgqlLqR5zIwHyIla/3dDRExBVMQz1dVguI2v6OnTfg\nOnTuJgtkc+mZcx/gw9+Nsk38ojdeDiw6zQGJ8hoX+pmxQ+WO9U1Rw0BOtaK3cU9h\nWrYd21ervsoOQfmhX1wJ\n=Viad\n-----END PGP SIGNATURE-----\n",
+          "md5": "5fbeea7da1a003f588ce66d84139304c",
+          "sha1": "8c631bdbc627840819ce378d03e49f8aab22a9f7"
+        },
+        "size": 117461,
+        "filename": "cipher-0.0.7-javadoc.jar",
+        "mime_type": "application/x-java-archive"
+      },
+      {
+        "hashes": {
+          "asc": "-----BEGIN PGP SIGNATURE-----\nVersion: BCPG v1.64\n\niQIcBAABCgAGBQJf5XddAAoJEKjHJY3yWFCvPtAP/1VXryv4ix1FHTh8rJGyntFV\na4vyVjJTJp+NY2Tn72E0/Sg3hmyCZgl2AOHJvxHVbH0oNFirsAkDTXKctXEt/m8i\n80AotGir5UHNahiejNFnUMJxCPGArhqo5ycb2kXucVYOgt2TgNNnJ5oSaXEdctqP\n2wuVgYrxPis9zeXyRbL7Mwy/FeE2gfJyhHvK8qfpeH6z8x5qnTjYKcY7qk2gruPt\nF6+4okllgEymltqaviVwDluizDhCFG0F8XjcmCTsO65P7uZshBpHZOWv873OzB48\nAwqHEZ0+km7Z2oPObD5DEEancROrVgUnJ9/35bh51Tw1TG7u9FTCOD0L8++ATHQN\n7LaBlUU60n+YJ3+drwDT1qU8c0rw1c4XRu/kgzSAKHlhPIIWkOAvt1tYFma6vXYv\nwc0QslTrg7hGrqqssQFbphLwc8zUsF36meS2mFkrley8oDXU/+7tcwj2pRB0TzDQ\n35ugaxZzqxQtSAGV3ycUeadhM6Vluc90AvL+RmnykPu5JZF5YkPLixnRClgBB4dD\nLY60/eIV95Nbxu5u6kpuUPshWbuZ3tNHdaVAfUW0+Gpr2Fz0+RVZjdQyBNNN00PD\nu2Ns1iGRdfMvy7ebjNXOS50kp4beWhTBDkW+2AEU2Cfq9FBtv+aWZEMlhDGhYfEj\n+VEhxhzBbUKse4NHzM3F\n=m6nH\n-----END PGP SIGNATURE-----\n",
+          "md5": "d59d79dc7357844bf2770fbe5531f87d",
+          "sha1": "ddf130ea092e8f95ab2007f723d8b767bb32daba"
+        },
+        "size": 4241,
+        "filename": "cipher-0.0.7-sources.jar",
+        "mime_type": "application/x-java-archive"
+      },
+      {
+        "hashes": {
+          "asc": "-----BEGIN PGP SIGNATURE-----\nVersion: BCPG v1.64\n\niQIcBAABCgAGBQJf5XddAAoJEKjHJY3yWFCvQq4P/jYWRBSDR5yPcsP5XlUzQZlJ\nkGhhsefU/do+WwT3MQwX/PjxYMH3RNl9DggJW7Ae7OTwg1ELJ3WYAhAPWk6kZxeJ\nf/ifxRyM6pztXoWv6rsJ37sEKbMtfVTqPL9U+HrOzSIiyZh/tOzKEeYQFK20AkqH\n1KSxGWl0+UL0AUjVvs0ZKsRwSEwZUnwgR758eG+kHeilNG5ekMEcLGu2C9S8cAV5\nCJV1GDVKDxE4iJk4GHIt8pQkm+uC07x8U+WsVet9ERe0nXTYwAcjfS3ctAwIASV2\nEjqUIhB9GVXIM9nUg4YXf8A6GTicpP132R+ApO8WTfiA9oMTDmbHMndp3XiDcX7c\nVBynaOxRmamu48wV7GZ6oJcTP0gaItrqNBo/KXTwJ64FacSl9Wah+eDOO3gdtXz6\nT2s58+SEseNP2WqTbb7yTWa228Rqc5cGWtTGmBj7IEV1b5tnDTHvPM9EcGaUm865\nf3zSdN4ZaExF1LA2/ZE0f/nWMoDdyKNwK3yfFwb2yhaoiN96TfuizfuhM9wy1Q9w\nMFb6GdnykFZbGtc8YX5fNNyfwawfDZtZlaYSdZIYQMCw/5/m9d0XBRPYBWmnY2g3\neqeKDJeVFRa+fy1x+v2/1HRLYIZAgiwNBoEEF5OY0qMbrmxKP4vv84nSpaRWSK7U\nFboD7kQzUI+6TPf8t5vy\n=wr/C\n-----END PGP SIGNATURE-----\n",
+          "md5": "d28e95b49aed846024d5d0789039b041",
+          "sha1": "a16adcd9b6b7ae22da37bdbf7d5c32d437e3b6b5"
+        },
+        "size": 7547,
+        "filename": "cipher-0.0.7.jar",
+        "mime_type": "application/x-java-archive"
+      },
+      {
+        "hashes": {
+          "asc": "-----BEGIN PGP SIGNATURE-----\nVersion: BCPG v1.64\n\niQIcBAABCgAGBQJf5XddAAoJEKjHJY3yWFCvlt0QANnVmP70uHEIDeDHPkzIIFEP\nuKI8pAWptoMUXLCyDC0iQjMYm0Y1OcqzH9ibVcbLV4YwDd9oynMzNoByCiSfbUXb\njdXCWL3tb/MonOxI0TSFq5pL4xob5fPS4P5oAww3LyJb1DNw1ndzO/461uEWiH5M\nlZiRHdSf3r72iCdHUkZ4aEYXnz79WBT4iTZk7RSnWiNapX8D9nJzFmAyjWNjQu/y\nPiqP9gZbEKVDlrMXzBOUP6CVyHsbw2H5YBomV30abUY2c5m1fm6FeLy+CXhdDjst\n8QxnDtFqkfsX5itNG2cjFrB0i6ZRITAnfZRPL7XsaWBXNfnsDshVkpKIXjJQvnkh\nHErzNW1A4fQ9FbjGHCwzLUA5CzizKqiHx0Eb8/keG+c1rwjbzl11wJaX8q8EnIHb\n1Cx5tI2tyxB8KytyrI7ianbeqJFr/Pn1ClfFjhq48TN9NVi0523xwFvUqfAfOCUQ\ninHug2eTj3Q0LFlH+jlmJzzO6ljjilZ1jAmsx1theyt55EpF+iRMocVaDu5miMsI\n0V/Hg5wgsKjTiFty4Ihs55yLVP5hadYrwbznYnp3TKrgUDYObVYvUXEYMSJINrTz\n7tc3NSwFF58ay6eO/WWoqx6D0yoYOeWB92xrsjC0h2zG7y0NzT66VPdbmGzL0HO2\nueUaQD7ap6gNCVAYbWjX\n=L2FI\n-----END PGP SIGNATURE-----\n",
+          "md5": "405acc3efd5fa3d79bbdbfac6fc02a15",
+          "sha1": "a2592925b27706afd6b55ca512ce695619f073d5"
+        },
+        "size": 4237,
+        "filename": "cipher-0.0.7.module",
+        "mime_type": "application/json"
+      },
+      {
+        "hashes": {
+          "asc": "-----BEGIN PGP SIGNATURE-----\nVersion: BCPG v1.64\n\niQIcBAABCgAGBQJf5XddAAoJEKjHJY3yWFCvm4YP/ih7TxMlsPwKD1kXZLpn7tQ3\n9VdQGdocep57esxjqYLmC+HGiQoQ8qT/PG3hxUW+Xp/AoIip3iaTySAdYKgsLhuM\nNcHzbfFzztppU78lsjT6YXzwQEBXuxHeiJ5x4vF4+HV3VbZ5BO+Tz4v8g2Bvvsl1\nqVPtuqYdc7cLPmgXN4YeNjwl34I9+98Ls8g1Nk4jKFNva9vASGISpunQGiadfpxK\nDwweogHaL+oTslWQHW2CCX3korO+17+E3/K9bbdhmn9lNx3MhJJCR/KpV87ZJkr1\neyaFnmxzRjQo8feEnRvGcx78TYxTSPs1EGhof1f8UJpk0BJoubsVy8MigI9kGqDI\nG9nwboA1xhAJqW3sUJjXT1QYGi7hcmelObsKibvwf/xlNaBoS3786wIVC3n8PsfM\nTGpFwNrKYl5wX0DLHa8ckc6X9Lw+H90R+73hlPj2WmwlMxIz2ZpNrtTzFnRCDPCV\n/yhcLKXRaH+LvM12JD4uezwzajHZvRO07tOqH5nwljxpr3CUXu4l7Mk/BTzPcOi8\nLw4vyIHSVyg2n6edW0ZZzHIOU+rwnyOFCpCCv64Q8sWjRvyYjdfUk5hhRuiJw/Rn\nYNzawOY/KESRs0d5bgpIWDMK/v6cDBlj1dK9DzxIySEKDxb5/nx1kEk5HshKt4kO\nFMD8A4nnZW6/4rl2MevB\n=wfvM\n-----END PGP SIGNATURE-----\n",
+          "md5": "d6726cf0a3cf4db47c91f0786a04bae6",
+          "sha1": "c3090541790cb2cc5a64814f2acfc5cccab00290"
+        },
+        "size": 1808,
+        "filename": "cipher-0.0.7.pom",
+        "mime_type": "text/xml"
+      }
+    ]
+  }

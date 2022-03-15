@@ -20,7 +20,7 @@ type artifact struct {
 }
 
 // read a directory and create a conponentDir representing contents
-func newComponent(dir string) (comp componentDir, err error) {
+func newComponentDir(dir string) (comp componentDir, err error) {
 
 	files, err := ioutil.ReadDir(dir)
 	if err != nil {
