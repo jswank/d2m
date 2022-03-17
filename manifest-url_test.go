@@ -40,7 +40,7 @@ func Test_pomFromURL(t *testing.T) {
 	}
 
 	if pom.ArtifactID != "cipher" {
-		t.Errorf("unexpected GroupID: %s", pom.ArtifactID)
+		t.Errorf("unexpected ArtifactID: %s", pom.ArtifactID)
 	}
 
 	if pom.Version != "0.0.7" {
