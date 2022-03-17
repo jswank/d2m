@@ -1,10 +1,8 @@
 # d2m
 
-![GoDoc reference example](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/jswank/d2m)
+[![GoDoc reference example](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/jswank/d2m)
 
 Given a directory or URL with a Maven2 component, create an effective manifest.
-
-(godoc link)
 
 ## Install
 ```console
