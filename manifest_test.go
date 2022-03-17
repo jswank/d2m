@@ -8,7 +8,16 @@ import (
 
 func Test_NewManifest(t *testing.T) {
 	m := NewManifest("com.github.120011676", "cipher", "0.0.7")
-	fmt.Printf("manifest: %+v\n", m)
+	if m.Coordinates.Group != "com.github.120011676" {
+		t.Errorf("group mismatch %s", m.Coordinates.Group)
+	}
+	if m.Coordinates.Artifact != "cipher" {
+		t.Errorf("artifact mismatch %s", m.Coordinates.Artifact)
+	}
+	if m.Coordinates.Version != "0.0.7" {
+		t.Errorf("version mismatch %s", m.Coordinates.Version)
+	}
+
 }
 
 func Test_NewFile(t *testing.T) {
@@ -32,5 +41,7 @@ func Test_FullManifest(t *testing.T) {
 
 func Test_MimeType(t *testing.T) {
 	mt := mimeType("foo.pom")
-	fmt.Printf("ext .pom => %s\n", mt)
+	if mt != "text/xml" {
+		t.Errorf("POM mimeType incorrect, %s", mt)
+	}
 }
