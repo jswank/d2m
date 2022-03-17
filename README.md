@@ -1,18 +1,21 @@
 # d2m
 
-Given a directory with a Maven2 component, create an effective manifest.
+![GoDoc reference example](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/jswank/d2m)
+
+Given a directory or URL with a Maven2 component, create an effective manifest.
 
 (godoc link)
 
 ## Install
 ```console
-$ go install install github.com/jswank/d2m@latest
+$ go install github.com/jswank/d2m/d2m@latest
 ```
 
 ## Usage
 
 ```console
 $ d2m maven2-component-dir
+$ d2m https://repo1.maven.org/maven2/com/github/120011676/cipher/0.0.7
 {
     "timestamp": "",
     "version": "",
