@@ -13,6 +13,7 @@ func NewManifestFromDir(dir string) (manifest *Manifest, err error) {
 	}
 	// fmt.Printf("ComponentDir: %+v\n", component)
 	manifest = NewManifest(component.ParsedPom.GroupID, component.ParsedPom.ArtifactID, component.ParsedPom.Version)
+	// manifest.Timestamp = component.Timestamp.Format(time.RFC3339)
 
 	for _, f := range component.Artifacts {
 		file := NewFile(f.Name(), f.Size())

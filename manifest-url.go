@@ -13,6 +13,7 @@ import (
 	"path/filepath"
 	"regexp"
 	"strconv"
+	"time"
 
 	"github.com/2000Slash/gopom"
 )
@@ -25,6 +26,8 @@ func NewManifestFromURL(url string) (manifest *Manifest, err error) {
 	}
 	// fmt.Printf("ComponentDir: %+v\n", component)
 	manifest = NewManifest(component.ParsedPom.GroupID, component.ParsedPom.ArtifactID, component.ParsedPom.Version)
+
+	// manifest.Timestamp = component.Timestamp.Format(time.RFC3339)
 
 	for _, f := range component.Artifacts {
 		file := NewFile(f.Name, f.Size)
@@ -51,6 +54,7 @@ func NewManifestFromURL(url string) (manifest *Manifest, err error) {
 type componentURL struct {
 	URL       *url.URL
 	ParsedPom *gopom.Project
+	Timestamp time.Time
 	Artifacts []artifactURL
 }
 
@@ -110,10 +114,12 @@ func newComponentURL(u string) (comp componentURL, err error) {
 			// parse the POM file
 			pomURL := *comp.URL
 			pomURL.Path = path.Join(comp.URL.Path, f.Name)
-			comp.ParsedPom, err = pomFromURL(pomURL.String())
+			var ts string
+			comp.ParsedPom, ts, err = pomFromURL(pomURL.String())
 			if err != nil {
 				return
 			}
+			comp.Timestamp, _ = time.Parse(time.RFC1123, ts)
 		}
 		if !isHash(filepath.Ext(f.Name)) {
 			a := artifactURL{f, []fileURL{}}
@@ -145,7 +151,7 @@ func newComponentURL(u string) (comp componentURL, err error) {
 
 }
 
-func pomFromURL(url string) (pom *gopom.Project, err error) {
+func pomFromURL(url string) (pom *gopom.Project, ts string, err error) {
 
 	resp, err := http.Get(url)
 
@@ -158,6 +164,8 @@ func pomFromURL(url string) (pom *gopom.Project, err error) {
 		err = fmt.Errorf("non-2xx response: %d", resp.StatusCode)
 		return
 	}
+
+	ts = resp.Header.Get("last-modified")
 
 	pom, err = pomReadAll(resp.Body)
 	if err != nil {

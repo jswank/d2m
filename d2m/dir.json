@@ -1,6 +1,6 @@
 {
-    "timestamp": "",
-    "version": "",
+    "timestamp": "2022-05-12T14:12:27Z",
+    "version": 1,
     "coordinates": {
       "group": "com.github.120011676",
       "artifact": "cipher",
@@ -38,6 +38,12 @@
         "mime_type": "application/x-java-archive"
       },
       {
+        "hashes": {},
+        "size": 2120,
+        "filename": "cipher-0.0.7.json",
+        "mime_type": "application/json"
+      },
+      {
         "hashes": {
           "asc": "-----BEGIN PGP SIGNATURE-----\nVersion: BCPG v1.64\n\niQIcBAABCgAGBQJf5XddAAoJEKjHJY3yWFCvlt0QANnVmP70uHEIDeDHPkzIIFEP\nuKI8pAWptoMUXLCyDC0iQjMYm0Y1OcqzH9ibVcbLV4YwDd9oynMzNoByCiSfbUXb\njdXCWL3tb/MonOxI0TSFq5pL4xob5fPS4P5oAww3LyJb1DNw1ndzO/461uEWiH5M\nlZiRHdSf3r72iCdHUkZ4aEYXnz79WBT4iTZk7RSnWiNapX8D9nJzFmAyjWNjQu/y\nPiqP9gZbEKVDlrMXzBOUP6CVyHsbw2H5YBomV30abUY2c5m1fm6FeLy+CXhdDjst\n8QxnDtFqkfsX5itNG2cjFrB0i6ZRITAnfZRPL7XsaWBXNfnsDshVkpKIXjJQvnkh\nHErzNW1A4fQ9FbjGHCwzLUA5CzizKqiHx0Eb8/keG+c1rwjbzl11wJaX8q8EnIHb\n1Cx5tI2tyxB8KytyrI7ianbeqJFr/Pn1ClfFjhq48TN9NVi0523xwFvUqfAfOCUQ\ninHug2eTj3Q0LFlH+jlmJzzO6ljjilZ1jAmsx1theyt55EpF+iRMocVaDu5miMsI\n0V/Hg5wgsKjTiFty4Ihs55yLVP5hadYrwbznYnp3TKrgUDYObVYvUXEYMSJINrTz\n7tc3NSwFF58ay6eO/WWoqx6D0yoYOeWB92xrsjC0h2zG7y0NzT66VPdbmGzL0HO2\nueUaQD7ap6gNCVAYbWjX\n=L2FI\n-----END PGP SIGNATURE-----\n",
           "md5": "405acc3efd5fa3d79bbdbfac6fc02a15",
@@ -56,6 +62,12 @@
         "size": 1808,
         "filename": "cipher-0.0.7.pom",
         "mime_type": "text/xml"
+      },
+      {
+        "hashes": {},
+        "size": 1687,
+        "filename": "cyclonedx.json",
+        "mime_type": "application/json"
       }
     ]
   }

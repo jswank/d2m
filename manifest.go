@@ -3,11 +3,14 @@ package d2m
 import (
 	"mime"
 	"path/filepath"
+	"time"
 )
+
+const manifest_version = 1
 
 type Manifest struct {
 	Timestamp   string      `json:"timestamp"`
-	Version     string      `json:"version"`
+	Version     int64       `json:"version"`
 	Coordinates Coordinates `json:"coordinates"`
 	Files       []File      `json:"files"`
 }
@@ -26,7 +29,10 @@ type File struct {
 }
 
 func NewManifest(group, artifact, version string) *Manifest {
-	m := Manifest{}
+	m := Manifest{
+		Timestamp: time.Now().UTC().Format(time.RFC3339),
+		Version:   manifest_version,
+	}
 	m.Coordinates = Coordinates{Group: group, Artifact: artifact, Version: version}
 	return &m
 }

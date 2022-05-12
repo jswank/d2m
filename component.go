@@ -5,12 +5,14 @@ import (
 	"io/fs"
 	"io/ioutil"
 	"path/filepath"
+	"time"
 
 	"github.com/2000Slash/gopom"
 )
 
 type componentDir struct {
 	ParsedPom *gopom.Project
+	Timestamp time.Time
 	Artifacts []artifact
 }
 
